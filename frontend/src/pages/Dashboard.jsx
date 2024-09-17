@@ -5,7 +5,7 @@ import { formatDate } from "../utils/date";
 const Dashboard = () => {
   const { user, logout } = useAuthStore();
 
-  const handleLogout = () =>{
+  const handleLogout = () => {
     logout();
   };
 
